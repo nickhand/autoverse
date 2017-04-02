@@ -20,8 +20,9 @@ class NelderMeadSolver(object):
             the data measurements
         theory : 
             the object holding the theory class
-        save_bestfit : bool, optional
-            whether to save the best-fitting theory result to disk
+        save_bestfit : str, optional
+            a string specifying the file name to use to save the best-fitting 
+            theory result to disk
         """
         self.logprob = LogProbability(params, data, theory)
         self.save_bestfit = save_bestfit

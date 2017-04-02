@@ -1,3 +1,3 @@
 from .parameter import *
 from . import data, models
-from .solvers import NelderMeadSolver
+from .solvers import NelderMeadSolver, EmceeSolver

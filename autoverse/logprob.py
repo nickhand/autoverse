@@ -59,7 +59,6 @@ class LogProbability(object):
             theory.append(th(d.x))
         
         return np.concatenate(theory)
-            
         
     def __call__(self, theta, return_state=False):
         """
