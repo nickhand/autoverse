@@ -1,0 +1,5 @@
+nbodykit
+fastpm
+emcee
+classylss
+lmfit>=0.9
